@@ -89,11 +89,6 @@ body * {
   animation: slide-back 0.4s;
 }
 
-#switch button:hover {
-  outline: 8px solid var(--highlight-color);
-  transition: outline 0.2s;
-}
-
 #switch span {
   display: block;
   width: 64px;
@@ -182,6 +177,10 @@ footer {
   .light {
     --bg-url: url(./assets/bg-ligth.jpg);
   }
+  #switch button:hover {
+  outline: 8px solid var(--highlight-color);
+  transition: outline 0.2s;
+}
 }
 
 /* animation*/
