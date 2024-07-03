@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-dark.jpg);
+  --bg-url: url(./assets/bg-desk-night.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -14,7 +14,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-ligth.jpg);
+  --bg-url: url(./assets/bg-dezk-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -110,7 +110,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 24px;;
+  padding: 24px;
 }
 
 ul p {
@@ -118,7 +118,7 @@ ul p {
   text-align: center;
   font-weight: 500;
 }
-#h1{
+#h1 {
   margin-bottom: 16px;
 }
 
@@ -172,15 +172,15 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-dark.jpg);
+    --bg-url: url(./assets/bg-mobile-dark.jpg);
   }
   .light {
-    --bg-url: url(./assets/bg-ligth.jpg);
+    --bg-url: url(./assets/bg-mobile-light.jpg);
   }
   #switch button:hover {
-  outline: 8px solid var(--highlight-color);
-  transition: outline 0.2s;
-}
+    outline: 8px solid var(--highlight-color);
+    transition: outline 0.2s;
+  }
 }
 
 /* animation*/
